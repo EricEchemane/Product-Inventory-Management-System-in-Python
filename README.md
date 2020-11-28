@@ -4,7 +4,7 @@ This is a command line or console application base on python. This application a
 Here the main storage of Data is a csv file inside the ./database/ folder.
 
 ### Features
-- User Log-in System with 1 Layer of Encryption
+- User Log-in System with **1 Layer of Encryption**
 - View Product
 - Add Product
 - Update Product
@@ -18,16 +18,16 @@ Here the main storage of Data is a csv file inside the ./database/ folder.
 - CSV
 
 ### File Contents
-- main.py
+- **main.py**
   This is main interface and function of the program.
-- login.py
+- **login.py**
   User login system with 1 strong layer of encryption.
-- masking.py
+- **masking.py**
   User defined function where in the characters you are typing is hidden in the console or replaced with an asterisk.
-- gotoxy.py
+- **gotoxy.py**
   gotoxy function allow you to manipulate console cursor position set by the given point x and y. This is very helpful in organizing user inputs and prompts.
-- database folder
-  - inventory.csv
+- **database folder**
+  - **inventory.csv**
     Main storage of the products
-  - deleted.py
+  - **deleted.py**
     Back-up file for unintentional deletion
