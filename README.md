@@ -9,8 +9,7 @@ Here the main storage of Data is a csv file inside the ./database/ folder.
 - Add Product
 - Update Product
 - Delete Product
-- Restore Deleted Products
-  This feature is currently in the development process
+- Restore Deleted Products - This feature is currently in the development process
   
 ### Used libraries
 - Pandas
@@ -18,14 +17,11 @@ Here the main storage of Data is a csv file inside the ./database/ folder.
 - CSV
 
 ### File Contents
-- **main.py**  This is main interface and function of the program.
-  
+- **main.py**  This is the main interface and function of the program.
 - **login.py**  User login system with 1 strong layer of encryption.
-  
+- **encryption.py**  This is where username and password are encrypted
 - **masking.py**  User defined function where in the characters you are typing is hidden in the console or replaced with an asterisk.
-  
 - **gotoxy.py**  gotoxy function allow you to manipulate console cursor position set by the given point x and y. This is very helpful in organizing user inputs and prompts.
-  
 - **database folder**
   - **inventory.csv**  Main storage of the products
   - **deleted.py**  Back-up file for unintentional deletion
